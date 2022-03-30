@@ -1,1 +1,0 @@
-# jadsoncerqueira.github.io
