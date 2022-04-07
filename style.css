@@ -5,10 +5,14 @@ h1 {
 
 p {
     font-family: sans-serif;
+    position: absolute;
+    top: 55px;
+    left: 230px;
 }
 
 body {
     background-color: #FCF7FF;
+    padding: 5%;
 }
 
 .corel {
@@ -29,7 +33,6 @@ ul {
 #foto-perfil {
     float: left;
     height: 186px;
-    margin-right: 10px;
     border-radius: 100%;
     padding: 7px;
     background-color: rgb(10, 54, 175);
@@ -39,5 +42,9 @@ ul {
     
 }
 section {
-    border: 1px solid red;
+    position: relative;
+}
+ul li:nth-child(odd) {
+    background-color: crimson;
+    color: white;
 }
