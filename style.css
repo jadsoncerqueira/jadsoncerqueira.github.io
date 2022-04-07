@@ -21,3 +21,20 @@ body {
 .photo {
     font-size: 1.7em;
 }
+ul {
+    display: inline;
+}
+
+#foto-perfil {
+    float: left;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+.container-secundario {
+    height: 200px;
+    
+}
+section {
+    border: 1px solid red;
+}
