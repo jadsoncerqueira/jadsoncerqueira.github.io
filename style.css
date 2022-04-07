@@ -28,9 +28,11 @@ ul {
 
 #foto-perfil {
     float: left;
-    height: 200px;
+    height: 186px;
     margin-right: 10px;
     border-radius: 100%;
+    padding: 7px;
+    background-color: rgb(10, 54, 175);
 }
 .container-secundario {
     height: 200px;
