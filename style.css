@@ -1,0 +1,50 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    position: absolute;
+    top: 55px;
+    left: 230px;
+}
+
+body {
+    background-color: #FCF7FF;
+    padding: 5%;
+}
+
+.corel {
+    font-size: 1.5em;
+}
+
+.py {
+    font-size: 1.6em;
+}
+
+.photo {
+    font-size: 1.7em;
+}
+ul {
+    display: inline;
+}
+
+#foto-perfil {
+    float: left;
+    height: 186px;
+    border-radius: 100%;
+    padding: 7px;
+    background-color: rgb(10, 54, 175);
+}
+.container-secundario {
+    height: 200px;
+    
+}
+section {
+    position: relative;
+}
+ul li:nth-child(odd) {
+    background-color: crimson;
+    color: white;
+}
