@@ -1,0 +1,39 @@
+#foto-perfil {
+  width: 202px;
+  border-radius: 100%;
+}
+
+#redes-sociais {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#preview {
+  /* border: 1px solid red; */
+  height: 565px;
+  display: flex;
+  justify-content: center;
+}
+
+#preview div {
+  margin-top: 7%;
+  color: white;
+  width: 491px;
+  text-align: center;
+}
+
+#preview div h1{
+  color: #02B4A9;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#preview div h1 span{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#preview div p{
+  font-size: 18px;
+}
