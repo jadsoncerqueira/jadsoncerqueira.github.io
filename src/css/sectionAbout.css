@@ -1,0 +1,122 @@
+#about {
+  height: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+#about h2 {
+  color: #02B4A9;
+  font-size: 50px;
+  font-weight: 700;
+}
+  
+
+#interesses {
+  display: flex;
+  gap: 54px;
+}
+
+.interesse {
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #333333;
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.363);
+}
+
+.interesse img {
+  height: 38px;
+}
+
+#hed {
+  display: flex;
+  gap: 12px;
+  width: max-content;
+  margin-bottom: 20px;
+}
+
+#hed div {
+  text-align: start;
+  width: max-content;
+}
+
+#hed p {
+  color: #c5c5c5;
+  font-size: 18px;
+  position: relative;
+  bottom: 10px;
+  left: 5px;
+}
+
+#hed img {
+  width: 70px;
+  position: relative;
+  top: 7px;
+}
+
+#info-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+#descricao {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0px 200px 20px;
+}
+
+@media (max-width: 600px) {
+  #about h2 {
+    font-size: 30px;
+  }
+
+  #about {
+    height: 350px;
+  }
+
+  #hed {
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  #hed p {
+    font-size: 10px;
+    bottom: 7px;
+    left: 3px;
+  }
+
+  #hed img {
+    width: 45px;
+    top: 4px;
+  }
+
+  #descricao {
+    font-size: 12px;
+    margin: 0px 40px 10px;
+  }
+
+  #interesses {
+    gap: 15px;
+  }
+
+  .interesse {
+    width: 75px;
+    height: 75px;
+    font-size: 13px;
+  }
+
+  .interesse img {
+    height: 25px;
+  }
+}

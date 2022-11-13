@@ -1,0 +1,14 @@
+footer {
+  background-color: #02B4A9;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(43, 43, 43);
+}
+
+@media (max-width: 600px) {
+  footer {
+    font-size: 14px;
+  }
+}

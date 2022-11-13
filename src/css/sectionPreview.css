@@ -1,0 +1,80 @@
+#foto-perfil {
+  margin-bottom: 15px;
+  width: 180px;
+  border-radius: 100%;
+}
+
+#preview {
+  margin-top: 60px;
+  background: url('../images/image-bg.png') no-repeat center center;
+  background-size:cover;
+  height: 575px;
+  display: flex;
+  justify-content: center;
+}
+
+#info {
+  position: relative;
+  color: white;
+  width: 491px;
+  height: max-content;
+  text-align: center;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+#preview div h1{
+  color: #02B4A9;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+#preview div h1 span{
+  font-weight: 700;
+}
+
+#preview div p{
+  color: rgb(211, 210, 210);
+  font-size: 22px;
+}
+
+#redes-sociais {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 28px;
+}
+
+.redes {
+  width: 30px;
+}
+
+@media (max-width: 600px) {
+  #preview {
+    height: 300px;
+  }
+
+  #preview div h1{
+    color: #02B4A9;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  #preview div p{
+    color: rgb(211, 210, 210);
+    font-size: 15px;
+  }
+
+  #foto-perfil {
+    width: 120px;
+    border-radius: 100%;
+  }
+
+  #redes-sociais {
+    gap: 20px;
+  }
+
+  .redes {
+    width: 28px;
+  }
+}
