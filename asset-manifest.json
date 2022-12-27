@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31999baa.css",
+    "main.js": "/static/js/main.85656f39.js",
+    "static/js/787.8f040844.chunk.js": "/static/js/787.8f040844.chunk.js",
+    "static/media/image-bg.png": "/static/media/image-bg.8ca915b006abc93e415a.png",
+    "static/media/foto-perfil.jpg": "/static/media/foto-perfil.b342123b5ddd63ba6c9b.jpg",
+    "static/media/mysql-icon.svg": "/static/media/mysql-icon.fcac7301fe56e77afad274337f59c0ae.svg",
+    "static/media/node-icon.svg": "/static/media/node-icon.fcb5a88c7f03ad13d07a4500ccd02fde.svg",
+    "static/media/tools.svg": "/static/media/tools.56a56c5c3e8075a6bce8e1e5d46a0a52.svg",
+    "static/media/musica-icon.svg": "/static/media/musica-icon.3c12ab64728a2ea7f0e483e4aa65ec29.svg",
+    "static/media/game-icon.svg": "/static/media/game-icon.97ae94f2d69a1e7e77d8b10bf34f2c26.svg",
+    "static/media/money-icon.svg": "/static/media/money-icon.0b139a51decc7b4b7c9e4ce584547fc0.svg",
+    "static/media/check.svg": "/static/media/check.d5202c091c1f146abe3e4db65ba0885c.svg",
+    "static/media/js-icon.svg": "/static/media/js-icon.7b0c51c84277ffac11811c61ae123720.svg",
+    "static/media/about.svg": "/static/media/about.04eac98e31000367a4c4f57ae31f6b6b.svg",
+    "static/media/viagem-icon.svg": "/static/media/viagem-icon.094dda7f7dabca0a591e047e2a2bc9bc.svg",
+    "static/media/css-icon.svg": "/static/media/css-icon.1e1dd2b8c1771acfbb4881191b764293.svg",
+    "index.html": "/index.html",
+    "static/media/html-icon.svg": "/static/media/html-icon.76efcb69d9747616fc1a5d8ff5da7fc0.svg",
+    "main.31999baa.css.map": "/static/css/main.31999baa.css.map",
+    "main.85656f39.js.map": "/static/js/main.85656f39.js.map",
+    "787.8f040844.chunk.js.map": "/static/js/787.8f040844.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31999baa.css",
+    "static/js/main.85656f39.js"
+  ]
+}
