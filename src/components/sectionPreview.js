@@ -1,8 +1,8 @@
 import React from 'react';
 import imgPerfil from '../images/foto-perfil.jpg';
-import imgFace from '../images/face.png';
+// import imgFace from '../images/face.png';
 import imgLinkedin from '../images/linkedin.png';
-import imgTwitter from '../images/twitter.png';
+// import imgTwitter from '../images/twitter.png';
 import imgGitHub from '../images/github.png';
 
 import '../css/sectionPreview.css'
@@ -17,10 +17,10 @@ export default function SectionPreview() {
                 <p>Desenvolvedor Web Full Stack</p>
             </div>
             <div id="redes-sociais">
-              <a href='#' target="_blank"><img className="redes" src={ imgFace } alt="" /></a>
-              <a href='#' target="_blank"><img className="redes" src={ imgLinkedin } alt="" /></a>
-              <a href='#' target="_blank"><img className="redes" src={ imgTwitter } alt="" /></a>
-              <a href='https://github.com/jadsoncerqueira/' target="_blank"><img className="redes" src={ imgGitHub } alt="" /></a>
+              {/* <a href='#gfh' target="_blank"><img className="redes" src={ imgFace } alt="" /></a> */}
+              <a href='#fgh' target="_blank"><img className="redes" src={ imgLinkedin } alt="" /></a>
+              {/* <a href='#fgh' target="_blank"><img className="redes" src={ imgTwitter } alt="" /></a> */}
+              <a rel="noreferrer" href='https://github.com/jadsoncerqueira/' target="_blank"><img className="redes" src={ imgGitHub } alt="" /></a>
             </div>
         </div>
     </section>    
