@@ -1,5 +1,5 @@
 #sec-projects {
-  padding: 30px;
+  padding: 80px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,21 +40,63 @@
 }
 
 .project h3 {
-  margin-top: 5px;
+  /* margin-top: 15px; */
   color: #02B4A9;
-  font-size: 25px;
+  font-size: 20px;
   padding: 0 5px;
 }
 
 .project p {
-  font-size: 19px;
+  font-size: 15px;
   padding: 0 5px;
 }
 
 .img {
-  height: 150px;
+  /* height: 150px; */
+  padding: 15px;
   background-color: rgba(255, 255, 255, 0.151);
   border-radius: 16px;
+  display: flex;
+}
+
+.capa {
+  width: 150px;
+  height: 150px;
+  border-radius: 16px;
+  /* border: 3px solid #02B4A9; */
+}
+
+.git {
+  margin-top: 10px;
+  width: 50px;
+  height: 30px;
+  background-color: #02B4A9;
+  color: rgb(34, 34, 34);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-project {
+  display: flex;
+  gap: 10px;
+}
+
+.info-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding: 5px 0; */
+  margin-left: 10px;
+}
+
+.gitHub {
+  width: 20px;
 }
 
 @media (max-width: 600px) {
@@ -67,20 +109,30 @@
   }
 
   #sec-projects {
-    height: max-content;
-    padding: 30px;
+    width: 81.5%;
+    /* height: max-content; */
+    padding: 80px 23px;
   }
   #projects {
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 100%;
+    gap: 10px;
+    /* margin: 0 50px; */
   }
 
   .project {
-    width: 160px;
+    width: 100%;
   }
 
   .img {
-    height: 100px;
+    width: 100%;
+    height: max-content;
+  }
+
+  .capa {
+    width: 120px;
+    height: 120px;
+    border-radius: 16px;
+    border: 3px solid #02B4A9;
   }
 
   .project h3 {
