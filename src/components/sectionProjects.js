@@ -59,7 +59,7 @@ export default function SectionProjects() {
                   <img className="capa" src={ wallet } alt="" />
                   <div className="info-project">
                     <h3>Wallet</h3>
-                    <p>Gerenciador de gastos com conversão de moedas, ciado<br /> com React e Redux.</p>
+                    <p>Gerenciador de gastos com conversão de moedas, criado<br /> com React e Redux.</p>
                     <div className="btn-project">
                       <a href="https://jadsoncerqueira.github.io/wallet" rel="noreferrer" target="_blank">
                         <div className='git'><img className="gitHub" src={ imgNave } alt="rinternet" /></div>
